@@ -1,0 +1,6 @@
+def rotateArr(A,D,N):
+     A[:D] = A[:D][::-1]
+     A[D:] = A[D:][::-1]
+     f = A[:D] + A[D:]
+     A[:] = f[::-1]
+    
