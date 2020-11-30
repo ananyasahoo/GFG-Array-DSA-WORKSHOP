@@ -1,0 +1,8 @@
+def transitionPoint(arr, n):
+    #Code here
+    for i in range(n):
+        if(arr[i] == 1):
+            return i
+     
+    # if no element is 1
+    return -1
